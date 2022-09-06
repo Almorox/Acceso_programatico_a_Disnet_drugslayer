@@ -60,13 +60,13 @@ Muestra los nombres de la enfermedad (disease_code.name) y del fármaco
 
 ### 4. Información de los efectos fenotípicos:
 
-### a. Indicaciones de un fármaco dado:
+#### a. Indicaciones de un fármaco dado:
 Dado el identificador de ChEMBL de un fármaco (‘drug_id’) (que se pide por 
 teclado), muestra aquellos efectos fenotípicos que sean indicaciones para las cuales 
 se utiliza el fármaco. Muestra el identificador (‘phenotype_effect’.‘phenotype_id’) y 
 el nombre (‘phenotype_effect’.‘phenotype_name’) del efecto fenotípico.
 
-### b. Efectos secundarios de un fármaco dado:
+#### b. Efectos secundarios de un fármaco dado:
 Dado el identificador de ChEMBL de un fármaco (‘drug_id’) (que debe pedirse por 
 teclado), muestra aquellos efectos fenotípicos categorizados como efectos 
 secundarios generados por el fármaco. Se devuelven ordenados de forma 
