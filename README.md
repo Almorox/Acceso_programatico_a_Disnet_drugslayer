@@ -1,6 +1,6 @@
 # Acceso_programatico_a_Disnet_drugslayer
 
-Este programa escrito en Python permite acceder a la base de datos ‘disnet_drugslayer.sql’. A través de una conexión con MySQL Workbench el usuario será capaz de realizar diferentes operaciones sobre la información de las tablas de datos. Las operaciones se pueden elegir a través de un menú que muestra las siguientes opciones:
+Este programa escrito en Python permite acceder a la base de datos ‘disnet_drugslayer.sql’ (https://disnet.ctb.upm.es/about/database). A través de una conexión con MySQL Workbench el usuario será capaz de realizar diferentes operaciones sobre la información de las tablas de datos. Las operaciones se pueden elegir a través de un menú que muestra las siguientes opciones:
 
 ## Consultas
 ### 1. Información general de la base de datos:
@@ -22,7 +22,7 @@ Muestra las 10 primeras instancias de cada una de las anteriores entidades:
 fármacos, enfermedades, efectos fenotípicos y targets. Muestra sólo aquellas 
 instancias en las que ninguno de los campos que se pide sea nulo. De cada instancia muestra:
 
-* i. Drugs: identificador, nombre, tipo molecular, estructura química e InChykey.
+* i. Drugs: identificador, nombre, tipo molecular, estructura química e InChy-key.
 * ii. Diseases: identificador (UMLS CUI, es decir, ‘disease_id’) y nombre
 (‘disease_name’).
 * iii. Phenotype effects: identificador y nombre.
